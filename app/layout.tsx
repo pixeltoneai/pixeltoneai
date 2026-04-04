@@ -12,7 +12,7 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-export const metadata = {
+export const metadata: Metadata = {
   title: "PixeltoneAI - Website Development & AI Automation",
   description:
     "We build high-converting websites and AI systems that help businesses get more customers automatically.",
@@ -35,12 +35,17 @@ export const metadata = {
     siteName: "PixeltoneAI",
     type: "website",
   },
+
+  icons: {
+    icon: "/favicon.png", // OR "/favicon.ico" if you used ico
+  },
 };
+
 export default function RootLayout({
   children,
-}: Readonly<{
+}: {
   children: React.ReactNode;
-}>) {
+}) {
   return (
     <html
       lang="en"

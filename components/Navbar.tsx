@@ -5,9 +5,13 @@ export default function Navbar() {
     <nav className="fixed top-0 left-0 w-full bg-black/70 backdrop-blur-md text-white px-6 py-4 flex justify-between items-center z-50 border-b border-white/5">
 
       {/* LOGO */}
-      <h1 className="text-lg font-semibold tracking-wide">
-        PixeltoneAI
-      </h1>
+      <div className="flex items-center gap-2">
+        <img
+          src="/logo.png"
+          alt="PixeltoneAI"
+          className="h-8 w-auto"
+        />
+      </div>
 
       {/* RIGHT SIDE */}
       <div className="flex items-center gap-4">
@@ -27,7 +31,7 @@ export default function Navbar() {
           </a>
         </div>
 
-        {/* CTA BUTTON (ALWAYS VISIBLE) */}
+        {/* CTA BUTTON */}
         <a
           href="https://wa.me/919512260104?text=Hi%20I%20saw%20your%20website%20PixeltoneAI"
           target="_blank"
