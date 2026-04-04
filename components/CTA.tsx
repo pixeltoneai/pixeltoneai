@@ -39,7 +39,7 @@ export default function CTA() {
 
           {/* SECONDARY CTA */}
           <a
-            href="mailto:pixeltoneai@gmail.com"
+            href="mailto:aman@pixeltoneai.com"
             className="border border-gray-600 text-gray-300 px-8 py-4 rounded-xl hover:border-[#EB5002] hover:text-[#EB5002] transition"
           >
             Email Us
