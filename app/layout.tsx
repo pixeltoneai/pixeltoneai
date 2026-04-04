@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "PixeltoneAI | Websites & AI Automation",
+  title: "PixeltoneAI - Website Development & AI Automation",
   description:
     "We build high-converting websites and AI systems that help businesses get more customers automatically.",
 
