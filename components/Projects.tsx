@@ -42,7 +42,7 @@ export default function Projects() {
   ];
 
   return (
-    <section className="relative bg-black text-white py-24 px-6 overflow-hidden">
+    <section  id="projects" className="relative bg-black text-white py-24 px-6 overflow-hidden">
       <div className="max-w-6xl mx-auto text-center">
         <h2 className="text-3xl md:text-4xl font-bold">
           Demo Projects
