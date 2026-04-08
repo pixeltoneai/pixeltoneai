@@ -42,13 +42,14 @@ export default function CTA() {
           <a
             href="https://wa.me/919512260104?text=Hi%20I%20saw%20your%20website%20PixeltoneAI"
             target="_blank"
+            rel="noopener noreferrer"
             className="bg-[#EB5002] text-white px-8 py-4 rounded-xl font-medium hover:scale-105 transition duration-300 hover:bg-[#d94400] hover:shadow-lg hover:shadow-orange-500/30"
           >
             Chat on WhatsApp
           </a>
 
           <a
-            href="mailto:aman@pixeltoneai.com"
+            href="mailto:business@pixeltoneai.com?subject=Interested in PixeltoneAI services"
             className="border border-gray-600 text-gray-300 px-8 py-4 rounded-xl hover:border-[#EB5002] hover:text-[#EB5002] transition"
           >
             Email Us

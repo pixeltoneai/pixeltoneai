@@ -55,15 +55,16 @@ export default function Footer() {
 
             <div className="flex flex-col gap-2 text-sm text-gray-400">
               <a
-                href="mailto:aman@pixeltoneai.com"
+                href="mailto:business@pixeltoneai.com"
                 className="hover:text-[#EB5002] transition"
               >
-                aman@pixeltoneai.com
+                business@pixeltoneai.com
               </a>
 
               <a
                 href="https://wa.me/919512260104"
                 target="_blank"
+                rel="noopener noreferrer"
                 className="hover:text-[#EB5002] transition"
               >
                 Chat on WhatsApp
@@ -79,6 +80,7 @@ export default function Footer() {
           <a
             href="https://www.instagram.com/pixeltoneai"
             target="_blank"
+            rel="noopener noreferrer"
             className="relative text-gray-400 hover:text-[#EB5002] transition group"
           >
             <FaInstagram />
@@ -88,6 +90,7 @@ export default function Footer() {
           <a
             href="https://www.linkedin.com/in/aman-shrivastav-5842893b5"
             target="_blank"
+            rel="noopener noreferrer"
             className="relative text-gray-400 hover:text-[#EB5002] transition group"
           >
             <FaLinkedin />
@@ -95,7 +98,7 @@ export default function Footer() {
           </a>
 
           <a
-            href="mailto:aman@pixeltoneai.com"
+            href="mailto:business@pixeltoneai.com"
             className="relative text-gray-400 hover:text-[#EB5002] transition group"
           >
             <FaEnvelope />
