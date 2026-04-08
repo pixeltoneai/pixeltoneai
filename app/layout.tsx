@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import { Analytics } from "@vercel/analytics/next"; // ✅ ADD THIS
 import "./globals.css";
 
 const geistSans = Geist({
@@ -16,7 +17,6 @@ export const metadata: Metadata = {
   title: "PixeltoneAI - Website Development & AI Automation",
   description:
     "We build high-converting websites and AI systems that help businesses get more customers automatically.",
-
   keywords: [
     "website development",
     "AI automation",
@@ -24,9 +24,7 @@ export const metadata: Metadata = {
     "lead generation",
     "web design agency",
   ],
-
   authors: [{ name: "PixeltoneAI" }],
-
   openGraph: {
     title: "PixeltoneAI",
     description:
@@ -35,9 +33,8 @@ export const metadata: Metadata = {
     siteName: "PixeltoneAI",
     type: "website",
   },
-
   icons: {
-    icon: "/favicon.png", // OR "/favicon.ico" if you used ico
+    icon: "/favicon.png",
   },
 };
 
@@ -51,7 +48,10 @@ export default function RootLayout({
       lang="en"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col">{children}</body>
+      <body className="min-h-full flex flex-col">
+        {children}
+        <Analytics /> {/* ✅ ADD THIS */}
+      </body>
     </html>
   );
 }
