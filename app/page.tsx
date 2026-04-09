@@ -5,6 +5,7 @@ import Process from "@/components/Process";
 import CTA from "@/components/CTA";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import Founders from "@/components/Founders";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <Projects />
       <Process/>
       <CTA />
+      <Founders/>
       <Footer />
     </main>
   );
