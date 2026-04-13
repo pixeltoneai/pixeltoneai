@@ -54,3 +54,12 @@ export default function RootLayout({
     </html>
   );
 }
+<a
+  href="https://wa.me/919512260104"
+  target="_blank"
+  className="fixed bottom-6 right-6 z-50"
+>
+  <div className="flex items-center justify-center w-14 h-14 rounded-full bg-[#EB5002] shadow-lg hover:scale-110 transition">
+    <span className="text-white text-xl">💬</span>
+  </div>
+</a>
