@@ -28,16 +28,19 @@ export default function Projects() {
       title: "Jewellery Store",
       result: "Premium brand presence",
       desc: "Luxury UI for high-ticket customers.",
+      link: "https://jewellery-store-smoky.vercel.app/",
     },
     {
       title: "AI Telecaller System",
       result: "Handles leads 24/7",
       desc: "Automated calling & booking system.",
+      link: "https://ai-telecaller-system.vercel.app/",
     },
     {
       title: "Nutritionist Website",
       result: "Higher conversions",
       desc: "Personal branding + consultation funnel.",
+      link: "https://nutritionist-website-seven.vercel.app/",
     },
   ];
 

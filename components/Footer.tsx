@@ -88,7 +88,7 @@ export default function Footer() {
           </a>
 
           <a
-            href="https://www.linkedin.com/in/aman-shrivastav-5842893b5"
+            href="https://www.linkedin.com/company/114553955/admin/dashboard/"
             target="_blank"
             rel="noopener noreferrer"
             className="relative text-gray-400 hover:text-[#EB5002] transition group"
